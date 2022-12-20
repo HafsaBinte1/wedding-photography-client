@@ -46,7 +46,7 @@ function App() {
         },
         {
           path: '/review',
-          element: <Review></Review>
+          
         }
       ]
     }
