@@ -8,7 +8,7 @@ const Review = () => {
     const [review, setReview] = useState([]);
 
     useEffect(() => {
-        fetch(`http://localhost:5000/review?email=${user?.email}`)
+        fetch(`https://y-jade-five.vercel.app/review?email=${user?.email}`)
             .then(res => res.json())
             .then(data => setReview(data))
     }, [user?.email])
